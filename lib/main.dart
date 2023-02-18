@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'src/shared/themes/color_schemes.g.dart';
+import 'package:hortifruti/src/shared/themes/themes.dart';
 
 
 
@@ -19,8 +18,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,
       title: '',
-      theme: ThemeData(useMaterial3: true, colorScheme: lightColorScheme),
-      darkTheme: ThemeData(useMaterial3: true, colorScheme: darkColorScheme),
+      theme: lightTheme,
+      darkTheme: darkTheme,
       home: MyHomePage(),
     );
   }
