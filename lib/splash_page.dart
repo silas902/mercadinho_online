@@ -11,13 +11,13 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF23AA49),
+      backgroundColor: const Color(0xFF23AA49),
     
 
 
       body: Center(
         child: SizedBox(
-          child: Image.asset('assets/icons/icon.png.png'),
+          child: Image.asset('assets/icons/icon.png'),
         ),
       ),
     );
